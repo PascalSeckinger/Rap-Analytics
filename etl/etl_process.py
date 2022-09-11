@@ -1,6 +1,6 @@
-from business_object.extract import Extract
-from business_object.transform import Transform
-from business_object.load import Load
+from etl.extract import Extract
+from etl.transform import Transform
+from etl.load import Load
 
 def etl(save_raw=True, save_structured=True):
         '''
